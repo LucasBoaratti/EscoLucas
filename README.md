@@ -6,13 +6,29 @@
 
 2. Após baixar os arquivos, abra-o no VSCode;
 
-3. Após abrir o VSCode, abra um terminal e acesse a pasta BackEnd: cd .\BackEnd\
+3. Após abrir o VSCode, abra um terminal e acesse a pasta BackEnd: 
 
-4. Depois crie o ambiente virtual: python -m venv .venv
+```bash
+cd .\BackEnd\
+```
 
-5. Acesse a .venv: .\.venv\Scripts\activate
+4. Depois crie o ambiente virtual: 
 
-6. Instale as bibliotecas do python: pip install -r requirements.txt
+```python
+python -m venv .venv
+```
+
+5. Acesse a .venv: 
+
+```python
+.\.venv\Scripts\activate
+````
+
+6. Instale as bibliotecas do python: 
+
+```python
+pip install -r requirements.txt
+```
 
 7. Antes de rodar o projeto, coloque o seu usuário e sua senha do seu banco de dados MySQL em settings.py (Caminho do settings.py: BackEnd\Escola\settings.py
 
@@ -43,17 +59,37 @@ CREATE DATABASE escolucas;
 USE escolucas;
 ```
 
-9. Após criar o banco de dados, volte no terminal do VSCode e digite o seguinte comando: python .\manage.py makemigrations
+9. Após criar o banco de dados, volte no terminal do VSCode e digite o seguinte comando: 
 
-10. E depois digite esse: python .\manage.py migrate
+```python
+python .\manage.py makemigrations
+```
 
-11. Após esses comandos, você irá criar o super usuário: python .\manage.py createsuperuser
+10. E depois digite esse: 
+
+```python
+python .\manage.py migrate
+```
+
+11. Após esses comandos, você irá criar o super usuário: 
+
+```python
+python .\manage.py createsuperuser
+```
 
 12. E depois é só adicionar o nome, não precisa adicionar o email, e digite uma senha de pelo menos 8 dígitos (Porque senão não terá como logar no front, já que lá pede uma senha de no mínimo 8 dígitos), depois aceita a criação do usuário;
 
-13. Depois, se tudo estiver certo, rode o programa: python .\manage.py runserver
+13. Depois, se tudo estiver certo, rode o programa: 
 
-14. Após isso, acesse a url: http://127.0.0.1:8000/admin
+```python
+python .\manage.py runserver
+```
+
+14. Após isso, acesse a url: 
+
+```bash
+http://127.0.0.1:8000/admin
+```
 
 15. Depois entre com o seu super usuário admin
 
@@ -73,13 +109,29 @@ USE escolucas;
 
 ## FrontEnd
 
-18. Agora você irá abrir outro terminal no VSCode e acessar a pasta FrontEnd: cd .\FrontEnd\
+18. Agora você irá abrir outro terminal no VSCode e acessar a pasta FrontEnd: 
 
-19. Nessa pasta, você irá instalar a pasta node_modules: npm install
+```bash
+cd .\FrontEnd\
+```
 
-20. E também as bibliotecas do front: npm install axios react-hook-form zod @hookform/resolvers react-router-dom
+19. Nessa pasta, você irá instalar a pasta node_modules: 
 
-21. Depois de instalar as bibliotecas e a pasta node_modules, rode o projeto: npm run dev
+```node
+npm install
+```
+
+20. E também as bibliotecas do front: 
+
+```node
+npm install axios react-hook-form zod @hookform/resolvers react-router-dom
+```
+
+21. Depois de instalar as bibliotecas e a pasta node_modules, rode o projeto: 
+
+```node
+npm run dev
+```
 
 22. Depois é só clicar no link gerado no terminal e acessar o FrontEnd da aplicação!!! 🥳🥳🥳
 
