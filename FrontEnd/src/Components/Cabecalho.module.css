@@ -1,0 +1,51 @@
+.cabecalho {
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px; 
+    border-radius: 25px; 
+    box-shadow: 5px 10px 5px #C60F7B;
+}
+
+.barraNavegacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    margin-right: 50px;  
+}
+
+ul {
+    list-style: none;
+    margin-right: 20px;
+    padding: 0;
+    flex-direction: row;
+    display: flex;
+}
+
+li {
+    padding: 10px;
+    color: white;
+    font-size: 24px;
+    font-family: "Comic Sans MS", sans-serif;
+    font-weight: bold;
+}
+
+li a.active {
+    color: #EAEA00;
+    text-decoration: none;
+}
+
+.login {
+    cursor: pointer;
+}
+
+.login:hover {
+    color: magenta;
+}

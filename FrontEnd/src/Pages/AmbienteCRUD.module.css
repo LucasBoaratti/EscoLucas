@@ -1,0 +1,83 @@
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.container h1 {
+    color: white;
+    margin-bottom: 30px;   
+}
+
+.botoes {
+    display: flex;
+    gap: 50px;
+}
+
+.botaoCriar {
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+    background-color: #00ff91;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.botaoCriar i {
+    font-size: 20px;
+}
+
+.botaoCriar:hover {
+    background-color: #e5ec09;
+}
+
+.botaoVoltar {
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+    background-color: #00ff91;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.botaoVoltar i {
+    font-size: 20px;
+}
+
+.botaoVoltar:hover {
+    background-color: #e5ec09;
+}
+
+.tabelaAmbientes {
+    margin-top: 40px;
+    border-collapse: collapse;
+    color: black;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.tabelaAmbientes th {
+    padding: 10px;
+    background-color: #00DFFF;
+    font-size: 20px;
+    border: 3px solid #10b03d;
+}
+
+.tabelaAmbientes td {
+    padding: 10px;
+    background-color: #F901FF;
+    border: 3px solid #10b03d;
+}
+
+.tabelaAmbientes i {
+    font-size: 20px;
+    padding: 0 3px;
+}

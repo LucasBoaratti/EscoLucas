@@ -1,0 +1,67 @@
+.formularioUpdate {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerFormulario {
+    background-color: #FF6B3D;
+    padding: 20px;
+    border-radius: 25px;
+    width: 500px;
+    overflow: auto;
+}
+
+.tituloFormulario {
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+}
+
+.formularioPUT input[type="text"] {
+    margin: 10px 0;
+    border-radius: 15px;
+    border: none;
+}
+
+.formularioPUT input[type="email"] {
+    margin: 10px 0;
+    border-radius: 15px;
+    border: none;
+}
+
+.formularioPUT input[type="number"] {
+    margin: 10px 0;
+    border-radius: 15px;
+    border: none;
+}
+
+.formularioPUT input[type="date"] {
+    margin: 10px 0;
+    border-radius: 15px;
+    border: none;
+}
+
+.botoesFormulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 30px;
+}
+
+.botoesFormulario button {
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.botoesFormulario button:hover {
+    background-color: #00FA50;
+}

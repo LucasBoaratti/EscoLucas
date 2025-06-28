@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.busca {
+    background-color: #e643e9;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.busca h1 {
+    margin-bottom: 20px;
+}
+
+.busca input[type="text"] {
+    margin: 10px 0;
+    border-radius: 15px;
+    border: none;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+    gap: 30px;
+}
+
+.botao button {
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.botao button:hover {
+    background-color: #00FA50;
+}
+
+.tabela {
+    margin-top: 40px;
+    border-collapse: collapse;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+    border: 3px solid #08B96C;
+}
+
+.tabela th {
+    padding: 10px;
+    background-color: #6415FF;
+    font-size: 20px;
+    border: 3px solid #08B96C;
+}
+
+.tabela td {
+    padding: 10px;
+    background-color: #5F76CC;
+    border: 3px solid #08B96C;
+}
