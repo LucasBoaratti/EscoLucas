@@ -84,6 +84,8 @@ npm install
 npm run dev
 ```
 
+#### E pronto! Agora você, Gestor ou Professor, pode ver seus dados na EscoLucas, além de cadastrá-los :D
+
 # 🛝 Linguagens/tecnologias utilizadas 🛝
 
 ## FrontEnd
