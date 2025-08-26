@@ -95,12 +95,8 @@ WSGI_APPLICATION = 'Escola.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql', #Definindo qual banco de dados será usado para guardar os dados na tabela
-        'NAME': '', #Nome do database
-        'USER': '', #Usuário do banco de dados mysql
-        'PASSWORD': 'lucas', #Senha do banco de dados mysql
-        'HOST': 'localhost', #Servidor do banco de dados 
-        'PORT': '3306', #Porta onde está rodando o servidor do banco de dados
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'EscoLucasDB.db',
     }
 }
 
