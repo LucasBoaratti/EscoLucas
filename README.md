@@ -7,7 +7,7 @@
 1. Clique no botão Code e copia a URL do projeto:
 
 ```bash
-https://github.com/nome_usuario/projeto.git
+https://github.com/LucasBoaratti/EscoLucas.git
 ```
 
 2. Abra o Prompt de comando (ou PowerShell ou GitBash) em sua área de trabalho ou em documentos e realize o seguinte comando:
@@ -15,13 +15,13 @@ https://github.com/nome_usuario/projeto.git
 OBS: Certifique que o Git está instalado no seu computador. Caso não esteja, instale aqui: [Git](https://git-scm.com/downloads)
 
 ```bash 
-git clone https://github.com/nome_usuario/projeto.git
+git clone https://github.com/LucasBoaratti/EscoLucas.git
 ```
 
 3. Acesse a pasta do projeto:
 
 ```bash
-cd .\nome_projeto
+cd .\EscoLucas
 ```
 
 4. Agora, entre no VSCode:
